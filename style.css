@@ -1,0 +1,26 @@
+*{
+    box-sizing: content-box;
+}
+#plateau{
+    width: 800px;
+    border: 2px solid #aaa;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    
+}
+.case{
+    width: 100px;
+    height: 100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.case-blanche{
+    background-color: white;
+}
+.case-noire{
+    background-color: black;
+    color: white;
+}
